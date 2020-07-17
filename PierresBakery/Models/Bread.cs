@@ -5,15 +5,12 @@ namespace PierresBakery.Models
 {
   public class Bread
   {
-    public int BreadCost { get ; }
-
+    public int BreadCost;
+    // public int BreadQuanity;
     public Bread(int cost)
     {
       BreadCost = cost;
-    }
-    public static int ApplyCost()
-    {
-      
+      // BreadQuanity = quantity;
     }
   }
 }
