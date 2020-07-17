@@ -23,7 +23,7 @@ namespace PierresBakery.Tests
     [TestMethod]    
     public void BreadQuantity_WillContainNumberofLoaves_Value()
     {
-   
+    Bread pricedBread = new Bread(5, 3);
     Assert.AreEqual(3, pricedBread.BreadQuanity);
     }
   }
