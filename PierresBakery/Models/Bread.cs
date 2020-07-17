@@ -7,3 +7,4 @@ namespace ProjectName.Models
   {
     // properties, constructors, methods, etc. go here
   }
+}
