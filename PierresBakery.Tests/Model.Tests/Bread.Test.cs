@@ -11,8 +11,13 @@ namespace PierresBakery.Tests
     [TestMethod]
     public void BreadConstructor_CreateInstanceofItem_GetType()
     {
-    Bread pricedBread = new Bread(5);
+    Bread pricedBread = new Bread(0);
     Assert.AreEqual(typeof(Bread), pricedBread.GetType());
+    }
+    public void BreadCost_WillContainPriceofLoaf_Value()
+    {
+    Bread pricedBread = new Bread(0);
+    Assert.AreEqual(5, pricedBread.ApplyCost());
     }
   }
 }
