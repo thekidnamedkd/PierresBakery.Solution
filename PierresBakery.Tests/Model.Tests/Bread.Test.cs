@@ -37,8 +37,8 @@ namespace PierresBakery.Tests
     public void BreadSpecial_WillContainCostofBread_Value()
     {
     Bread pricedBread = new Bread(5, 3);
-    int breadSpecialCost = pricedBread.BreadSpecial();
-    Assert.AreEqual(15, breadSpecialCost);
+    int bread= pricedBread.BreadSpecial();
+    Assert.AreEqual(10, breadSpecialCost);
     }
   }
 }
