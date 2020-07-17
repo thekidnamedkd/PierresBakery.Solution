@@ -11,9 +11,9 @@ _A C# console application for a bakery. It will determine how many of each item 
 ### Specs
 | Spec | Input | Output | Done? |
 | :-------------     | :------------- | :------------- | :------------- | 
-| Program will create a bread class. | input: | output:  | [ ] |
+| Program will create a bread class. | input: | output:  | [x ] |
 | Program will create a pastry class. | input: | output:  | [ ] |
-| Program will create a pricing method for bread. | input: | output:  | [ ] |
+| Program will create a pricing method for bread. | input: | output:  | [x] |
 | Program will create a pricing method for pastry. | input: | output:  | [ ] |
 | Program will greet the user and display the current deals on baked goods. | input: | output:  | [ ] |
 | Program will ask a user how many loaves of bread they want. | input: | output:  | [ ] | 
