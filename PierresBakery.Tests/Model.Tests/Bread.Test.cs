@@ -26,5 +26,12 @@ namespace PierresBakery.Tests
     Bread pricedBread = new Bread(5, 3);
     Assert.AreEqual(3, pricedBread.BreadQuanity);
     }
+    [TestMethod]    
+    public void BreadOrder_WillContainTotalCostofBread_Value()
+    {
+    Bread pricedBread = new Bread(5, 3);
+    Assert.AreEqual(15, pricedBread.BreadOrder());
+    }
+
   }
 }
