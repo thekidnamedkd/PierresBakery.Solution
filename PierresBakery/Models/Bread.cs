@@ -6,11 +6,11 @@ namespace PierresBakery.Models
   public class Bread
   {
     public int BreadCost;
-    // public int BreadQuanity;
-    public Bread(int cost)
+    public int BreadQuanity;
+    public Bread(int cost, int quantity)
     {
       BreadCost = cost;
-      // BreadQuanity = quantity;
+      BreadQuanity = quantity;
     }
   }
 }
