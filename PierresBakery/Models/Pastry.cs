@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace ProjectName.Models
+namespace PierresBread.Models
 {
-  public class ClassName
+  public class Pastry
   {
     // properties, constructors, methods, etc. go here
   }

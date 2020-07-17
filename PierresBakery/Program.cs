@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ScrabbleScore.Models
+namespace PierresBakery.Models
 {
   public class Program
   {

@@ -1,18 +1,18 @@
 using System;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjectName;
+using PierresBakery.Models;
 
-namespace ProjectName.Tests
+namespace PierresBakery.Tests
 {
   [TestClass]
-  public class ClassNameTests
+  public class BreadTests
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void BreadCost_WillContainPriceofLoaf_Value()
     {
-    // any necessary logic to prep for test; instantiating new classes, etc.
-    Assert.AreEqual(RESULT, TEST);
+    
+    Assert.AreEqual(typeof(Bread), pricedBread.GetType());
     }
   }
 }
