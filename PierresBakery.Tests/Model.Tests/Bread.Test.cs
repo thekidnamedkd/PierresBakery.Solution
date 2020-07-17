@@ -9,7 +9,7 @@ namespace PierresBakery.Tests
   public class BreadTests
   {
     [TestMethod]
-    public void BreadCost_WillContainPriceofLoaf_Value()
+    public void BreadConstructor_CreateInstanceofItem_GetType()
     {
     Bread pricedBread = new Bread(5);
     Assert.AreEqual(typeof(Bread), pricedBread.GetType());
