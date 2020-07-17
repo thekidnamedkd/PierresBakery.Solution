@@ -9,7 +9,7 @@ namespace PierresBakery.Models
 
     public Bread(int cost)
     {
-      
+      BreadCost = cost;
     }
   }
 }

@@ -11,7 +11,7 @@ namespace PierresBakery.Tests
     [TestMethod]
     public void BreadCost_WillContainPriceofLoaf_Value()
     {
-    
+    Bread pricedBread = new Bread(5);
     Assert.AreEqual(typeof(Bread), pricedBread.GetType());
     }
   }
