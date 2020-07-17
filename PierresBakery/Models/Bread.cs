@@ -5,21 +5,31 @@ namespace PierresBakery.Models
 {
   public class Bread
   {
-    public int BreadCost = 5;
-    public int BreadQuanity;
+    public int BreadCost;
+    public int BreadQuantity;
     public Bread(int cost, int quantity)
     {
       BreadCost = cost;
-      BreadQuanity = quantity;
+      BreadQuantity = quantity;
     }
     public int BreadOrder ()
     {
-      int breadOrder = BreadCost * BreadQuanity;
+      int breadOrder = BreadCost * BreadQuantity;
       return breadOrder;
     }
       public int BreadSpecial ()
     {
-      
+      if (BreadQuantity >= 2) 
+      {
+        int discount = BreadQuantity/3;
+        int breadSpecial = ((BreadQuantity - discount) * BreadCost);
+        return breadSpecial;
+      }
+      else 
+      {
+        int breadNonSpecial = BreadCost * BreadQuantity;
+        return breadNonSpecial;
+      }
     }
   }
 }
