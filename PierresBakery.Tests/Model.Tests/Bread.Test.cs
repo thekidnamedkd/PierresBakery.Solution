@@ -34,7 +34,7 @@ namespace PierresBakery.Tests
     Assert.AreEqual(10, breadTotal);
     }
     [TestMethod]    
-    public void BreadSpecial_WillContainCostofBreadWithSpecial_Value()
+    public void BreadOrder_WillContainCostofBreadWithSpecial_Value()
     {
     Bread pricedBread = new Bread(5, 3);
     int breadDiscount = pricedBread.BreadOrder();

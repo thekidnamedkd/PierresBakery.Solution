@@ -1,18 +1,18 @@
-// using System;
-// using System.Collections.Generic;
-// using Microsoft.VisualStudio.TestTools.UnitTesting;
-// using ProjectName;
+using System;
+using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PierresBakery.Models;
 
-// namespace ProjectName.Tests
-// {
-//   [TestClass]
-//   public class ClassNameTests
-//   {
-//     [TestMethod]
-//     public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
-//     {
-//     // any necessary logic to prep for test; instantiating new classes, etc.
-//     Assert.AreEqual(RESULT, TEST);
-//     }
-//   }
-// }
+namespace PierresBakery.Tests
+{
+  [TestClass]
+  public class PastryTests
+  {
+    [TestMethod]
+    public void PastryConstructor_CreateInstanceofItem_GetT()
+    {
+    Pastry pricedPastry = new Pastry(5, 3);
+    Assert.AreEqual(typeof(Pastry), pricedPastry.GetType());
+    }
+  }
+}
