@@ -31,13 +31,13 @@ namespace PierresBakery.Tests
     {
     Bread pricedBread = new Bread(5, 3);
     int breadTotal = pricedBread.BreadOrder();
-    Assert.AreEqual(15, breadTotal);
+    Assert.AreEqual(10, breadTotal);
     }
     [TestMethod]    
     public void BreadSpecial_WillContainCostofBreadWithSpecial_Value()
     {
     Bread pricedBread = new Bread(5, 3);
-    int breadDiscount = pricedBread.BreadSpecial();
+    int breadDiscount = pricedBread.BreadOrder();
     Assert.AreEqual(10, breadDiscount);
     }
   }

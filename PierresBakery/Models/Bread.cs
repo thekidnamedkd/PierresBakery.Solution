@@ -5,19 +5,14 @@ namespace PierresBakery.Models
 {
   public class Bread
   {
-    public int BreadCost;
-    public int BreadQuantity;
+    public int BreadCost { get; set; }
+    public int BreadQuantity { get; set; }
     public Bread(int cost, int quantity)
     {
       BreadCost = cost;
       BreadQuantity = quantity;
     }
-    public int BreadOrder ()
-    {
-      int breadOrder = BreadCost * BreadQuantity;
-      return breadOrder;
-    }
-      public int BreadSpecial ()
+      public int BreadOrder ()
     {
       if (BreadQuantity >= 2) 
       {
