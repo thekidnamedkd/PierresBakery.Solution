@@ -38,7 +38,7 @@ _A C# console application for a bakery. It will determine how many of each item 
 
 ## Known Bugs
 
-_No known bugs at this time._
+_Does not account for "buy 3, get dollar off" special outside of pastry totals not divisble 3._
 
 ## Support and contact details
 
