@@ -16,12 +16,14 @@ namespace PierresBakery.Models
     {
       if (PastryQuantity % 3 == 0) 
       {
-        int PastrySpecial = (PastryCost * PastryQuantity - (PastryQuantity/3));
+        int discount = PastryQuantity/3;
+        int PastrySpecial = (PastryCost * PastryQuantity - discount);
         return PastrySpecial;
       }
       else
       {
-        return PastryQuantity * PastryCost;
+        int pastryNonSpecial = PastryQuantity * PastryCost;
+        return pastryNonSpecial;
       }
     }
   }

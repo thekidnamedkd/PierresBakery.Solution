@@ -17,7 +17,7 @@ namespace PierresBakery.Models
       if (BreadQuantity >= 2) 
       {
         int discount = BreadQuantity/3;
-        int breadSpecial = ((BreadQuantity - discount) * BreadCost);
+        int breadSpecial = (BreadCost * (BreadQuantity - discount));
         return breadSpecial;
       }
       else 
