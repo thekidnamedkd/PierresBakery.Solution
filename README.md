@@ -15,11 +15,11 @@ _A C# console application for a bakery. It will determine how many of each item 
 | Program will create a pastry class. | input: | output:  | [X] |
 | Program will create a pricing method for bread. | input: | output:  | [X] |
 | Program will create a pricing method for pastry. | input: | output:  | [X] |
-| Program will greet the user and display the current deals on baked goods. | input: | output:  | [ ] |
-| Program will ask a user how many loaves of bread they want. | input: | output:  | [ ] | 
-| Program will ask a user how many pastries they want. | input: | output:  | [ ] |
-| Program will calculate the total cost of the order. | input: | output:  | [ ] |
-| Program will display the total cost of the order to customer. | input: | output:  | [ ] |
+| Program will greet the user and display the current deals on baked goods. | input: | output:  | [X] |
+| Program will ask a user how many loaves of bread they want. | input: | output:  | [X] | 
+| Program will ask a user how many pastries they want. | input: | output:  | [X] |
+| Program will calculate the total cost of the order. | input: | output:  | [X] |
+| Program will display the total cost of the order to customer. | input: | output:  | [X] |
 
 ## Layout/Logic Separation Mockup
 
@@ -38,7 +38,7 @@ _A C# console application for a bakery. It will determine how many of each item 
 
 ## Known Bugs
 
-_Does not account for "buy 3, get dollar off" special outside of pastry totals not divisble 3._
+No known bugs at this time.
 
 ## Support and contact details
 
